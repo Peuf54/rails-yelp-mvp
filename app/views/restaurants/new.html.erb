@@ -1,0 +1,9 @@
+<div class="container d-flex flex-column align-items-center">
+<%= simple_form_for @restaurant do |f| %>
+  <%= f.input :name %>
+  <%= f.input :address %>
+  <%= f.input :phone_number %>
+  <%= f.input :category %>
+  <%= f.submit 'Share this awesome address !', class: 'btn btn-success' %>
+<% end %>
+</div>
